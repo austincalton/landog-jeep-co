@@ -1,0 +1,20 @@
+html {
+    background-image: url(./images/jeep-bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu-bar {
+    background-color: lightcoral;
+    width: 100vw;
+    height: auto;
+    margin: 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+
+
+}
