@@ -6,15 +6,69 @@ html {
     background-size: cover;
 }
 
-.menu-bar {
-    background-color: lightcoral;
-    width: 100vw;
-    height: auto;
-    margin: 0 0;
-    position: absolute;
-    top: 0;
-    left: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: white;
     opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .5rem;
+    /* border-bottom: solid #fbb040 .2rem; */
+}
 
+#header img {
+    height: 5rem;
+    width: auto;
+}
+.jeep-title {
+    font-family: 'Courgette', sans-serif;
+    font-size: 2.3rem;
+    color: #78644b;
+}
 
+li, a {
+    font-family: 'Dosis', sans-serif;
+    color: #487d8b;
+    text-decoration: none;
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+.nav-bar ul {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.nav-bar li {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-emphasis: bold;
+    padding: 0 7rem;
+}
+
+.nav-bar a {
+    padding: 1.3rem;
+}
+
+.nav-bar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-bar a:hover {
+    background: #487d8b;
+    color: white;
+}
+
+.section-a p {
+    position: absolute;
+    top: 100px;
 }
