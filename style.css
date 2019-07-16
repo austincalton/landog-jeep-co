@@ -4,6 +4,8 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -68,7 +70,29 @@ li, a {
     color: white;
 }
 
-.section-a p {
+#section-a h2 {
+    font-family: 'Courgette', sans-serif;
+    font-size: 3rem;
     position: absolute;
-    top: 100px;
+    z-index: auto;
+    top: 40vh;
+    width: 60%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.sec-a-bg {
+    width: 40%;
+    height: 10vh;
+    background: #fff;
+    position: absolute;
+    top: 39vh;
+    margin: 0 auto;
+    z-index: 2;
+    opacity: 0.2;
+    left: 50%;
+    transform: translate(-50%);
 }
