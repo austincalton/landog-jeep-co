@@ -96,3 +96,40 @@ li, a {
     left: 50%;
     transform: translate(-50%);
 }
+
+
+@media only screen 
+and (width : 375px) 
+and (height : 635px)
+and (orientation : portrait)  
+and (-webkit-device-pixel-ratio : 3) {
+    #header {
+        /* display: none; */
+    }
+
+    #header img {
+        width: 10rem;
+        height: auto;
+    }
+
+    .nav-bar li {
+        display: inline-block;
+        font-size: 1rem;
+        text-emphasis: bold;
+    }
+
+    .nav-bar a {
+        padding: 0;
+    }
+
+    #section-a h2 {
+        font-size: 1.5rem;
+        width: 70%;
+        top: 42vh;
+    }
+
+    .sec-a-bg {
+        width: 80%;
+    }
+}
+  
